@@ -9,11 +9,17 @@
   "dependencies": {
     "rpio": "0.6.x"
   },
+  "scripts": {
+    "readme": "node ./node_modules/.bin/node-readme"
+  },
   "engine": "node >= 4.2.1",
   "author": "jtcmedia <jason.cumiskey@gmail.com>",
   "bugs": {
     "url": "https://github.com/jtcmedia/rpi-fan-ctrl/issues"
   },
   "homepage": "https://github.com/jtcmedia/rpi-fan-ctrl#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "node-readme": "^0.1.9"
+  }
 }
