@@ -2,8 +2,6 @@
 
 Raspberry Pi Fan Control. This program controls a case mounted RPi Fan. Fan is pwm'd based on current temperature of the CPU.
 
-![nodei.co](https://nodei.co/npm/rpi-fan-ctrl.png?downloads=true&downloadRank=true&stars=true)
-
 ## Features
 
 ## Requirements
