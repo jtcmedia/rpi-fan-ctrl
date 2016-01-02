@@ -1,6 +1,6 @@
 # rpi-fan-ctrl
 
-PWM control a RPi case mounted fan based on current CPU temperature
+Raspberry Pi Fan Control. This program controls a case mounted RPi Fan. Fan is pwm'd based on current temperature of the CPU.
 
 ![nodei.co](https://nodei.co/npm/rpi-fan-ctrl.png?downloads=true&downloadRank=true&stars=true)
 
@@ -9,6 +9,15 @@ PWM control a RPi case mounted fan based on current CPU temperature
 
 ## Features
 
+## Requirements
+This program assumes you have installed quick2wire to allow a regular user account to access the GPIO ports:
+```
+git clone git://github.com/quick2wire/quick2wire-gpio-admin.git
+cd quick2wire-gpio-admin
+make
+sudo make install
+sudo adduser $USER gpio
+```
 
 ## Scripts
 
