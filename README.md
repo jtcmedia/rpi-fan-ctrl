@@ -4,21 +4,10 @@ PWM control a RPi case mounted fan based on current CPU temperature
 
 ![nodei.co](https://nodei.co/npm/rpi-fan-ctrl.png?downloads=true&downloadRank=true&stars=true)
 
-![travis-status](https://img.shields.io/travis/jtcmedia/rpi-fan-ctrl.svg)
-![stars](https://img.shields.io/github/stars/jtcmedia/rpi-fan-ctrl.svg)
-![forks](https://img.shields.io/github/forks/jtcmedia/rpi-fan-ctrl.svg)
-
-![forks](https://img.shields.io/github/forks/jtcmedia/rpi-fan-ctrl.svg)
-
 ![](https://david-dm.org/jtcmedia/rpi-fan-ctrl/status.svg)
 ![](https://david-dm.org/jtcmedia/rpi-fan-ctrl/dev-status.svg)
 
 ## Features
-
-
-## Install
-
-`npm install --save rpi-fan-ctrl`
 
 
 ## Scripts
@@ -35,7 +24,7 @@ Package | Version | Dev
 
 ## Contributing
 
-Contributions welcome; Please submit all pull requests the against master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Please check the [Contributing Guidelines](contributng.md) for more details. Thanks!
+Contributions welcome; Please submit all pull requests against the master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Please check the [Contributing Guidelines](contributng.md) for more details. Thanks!
 
 ## Author
 
