@@ -1,7 +1,5 @@
 # rpi-fan-ctrl
 
-![npm](https://img.shields.io/npm/v/rpi-fan-ctrl.svg) ![license](https://img.shields.io/npm/l/rpi-fan-ctrl.svg) ![github-issues](https://img.shields.io/github/issues/jtcmedia/rpi-fan-ctrl.svg)  ![Circle CI build status](https://circleci.com/gh/jtcmedia/rpi-fan-ctrl.svg?style=svg)
-
 PWM control a RPi case mounted fan based on current CPU temperature
 
 ![nodei.co](https://nodei.co/npm/rpi-fan-ctrl.png?downloads=true&downloadRank=true&stars=true)
