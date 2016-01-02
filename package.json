@@ -1,18 +1,19 @@
 {
   "name": "rpi-fan-ctrl",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "PWM control a RPi case mounted fan based on current CPU temperature",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jtcmedia/rpi-fan-ctrl.git"
   },
   "dependencies": {
-    "rpio": "0.x.x"
+    "rpio": "0.6.x"
   },
   "engine": "node >= 4.2.1",
   "author": "jtcmedia <jason.cumiskey@gmail.com>",
   "bugs": {
     "url": "https://github.com/jtcmedia/rpi-fan-ctrl/issues"
   },
-  "homepage": "https://github.com/jtcmedia/rpi-fan-ctrl#readme"
+  "homepage": "https://github.com/jtcmedia/rpi-fan-ctrl#readme",
+  "license": "MIT"
 }
