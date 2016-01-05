@@ -7,14 +7,11 @@ Make sure you have `node` and `npm` installed on your Raspberry Pi.
 
 You must have the pi-blaster daemon ([pi-blaster](https://github.com/jtcmedia/pi-blaster)) installed and running.
 
-## Dependencies
-
-Package | Version | Dev
---- |:---:|:---:
-[pi-blaster.js](https://www.npmjs.com/package/pi-blaster.js) | 0.1.x | ✔
-[infinite-loop](https://www.npmjs.com/package/infinite-loop) | 0.2.x | ✔
-
 ## Instructions
+
+1. Clone the repository in your home directory.
+2. run `npm install` to install dependencies
+3. 
 
 ## Contributing
 
