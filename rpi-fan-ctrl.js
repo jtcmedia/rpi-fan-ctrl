@@ -19,13 +19,13 @@ function adjustPWM() {
 		piblaster.setPwm(18, 1);
 		//console.log("temp = " + tempC);
 	} else if (tempC > 45) {
-		piblaster.setPwm(18, 0.75);
+		piblaster.setPwm(18, 0.8);
 		//console.log("temp = " + tempC);
 	} else if (tempC > 40) {
 		piblaster.setPwm(18, 0.5);
 		//console.log("temp = " + tempC);
 	} else {
-		piblaster.setPwm(18, 0.25);
+		piblaster.setPwm(18, 0.3);
 		//console.log("temp = " + tempC);
 	}
 }
