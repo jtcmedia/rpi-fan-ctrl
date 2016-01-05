@@ -14,7 +14,7 @@ You must have the pi-blaster daemon ([pi-blaster](https://github.com/jtcmedia/pi
 Package | Version | Dev
 --- |:---:|:---:
 [pi-blaster.js](https://www.npmjs.com/package/pi-blaster.js) | 0.1.x | ✔
-
+[infinite-loop](https://www.npmjs.com/package/infinite-loop) | 0.2.x | ✔
 
 ## Contributing
 
