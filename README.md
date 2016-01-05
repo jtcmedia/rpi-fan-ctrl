@@ -7,7 +7,7 @@ Raspberry Pi Fan Control. This program controls a case mounted RPi Fan. Fan is p
 ## Requirements
 Make sure you have `node` and `npm` installed on your Raspberry Pi.
 
-You must have the pi-blaster daemon ([instructions][pi-blaster]) installed and running.
+You must have the pi-blaster daemon ([pi-blaster](https://github.com/jtcmedia/pi-blaster)) installed and running.
 
 ## Dependencies
 
