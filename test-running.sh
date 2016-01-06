@@ -6,12 +6,12 @@
 # is on and the fan isn't cooling!!
 
 process=rpi-fan-ctrl.js
-makerun="node /home/pi/rpi-fan-ctrl/rpi-fan-ctrl.js"
+makerun="node ~/rpi-fan-ctrl/rpi-fan-ctrl.js"
 
-if ps ax | grep -v grep | grep $process > /dev/null
+if ps ax | grep -v grep | grep $process > /dev/null 
 	then
 		exit
 	else
-		nice -n 10 $makerun &
+		$makerun &
 	fi
 exit
