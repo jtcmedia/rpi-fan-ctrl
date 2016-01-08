@@ -10,8 +10,10 @@ You must have the pi-blaster daemon ([pi-blaster](https://github.com/jtcmedia/pi
 ## Instructions
 
 1. Clone the repository in your home directory.
-2. run `npm install` to install dependencies
-3. 
+2. run `npm install` to install dependencies.
+3. run `crontab -e` to add a cron job for your user. Enter:
+    `* * * * * ~/rpi-fan-ctrl/test-running.sh`
+4. save and exit. Script will check that the fan control is running every minute.
 
 ## Contributing
 
