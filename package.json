@@ -11,7 +11,7 @@
     "infinite-loop": "0.2.x",
     "pi-blaster.js": "0.1.x"
   },
-  "engine": "node >= 0.12.6",
+  "engine": "node >= 6.10.3",
   "author": "jtcmedia <jtcmedia@users.noreply.github.com>",
   "bugs": {
     "url": "https://github.com/jtcmedia/rpi-fan-ctrl/issues"
