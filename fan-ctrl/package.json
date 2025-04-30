@@ -7,7 +7,6 @@
     "url": "https://github.com/jtcmedia/rpi-fan-ctrl.git"
   },
   "dependencies": {
-    "forever-monitor": "^1.7.1",
     "infinite-loop": "0.2.x",
     "pi-blaster.js": "0.1.x"
   },

@@ -15,14 +15,16 @@ piblaster.setPwm(18, 1);
 function adjustPWM() {
 	var tempString = fs.readFileSync('/sys/class/thermal/thermal_zone0/temp', 'utf8');
 	var tempC = parseInt(tempString, 10) / 1e3;
-	if (tempC > 55) {
+	if (tempC > 65) {
 		piblaster.setPwm(18, 1);
 		//console.log("temp = " + tempC);
-	} else if (tempC > 45) {
-		piblaster.setPwm(18, 0.8);
+	} else if (tempC > 55) {
+		piblaster.setPwm(18, 0.6);
 		//console.log("temp = " + tempC);
-	} else if (tempC > 40) {
-		piblaster.setPwm(18, 0.5);
+  } else if (tempC > 50) {
+    piblaster.setPwm(18, 0.5);
+	} else if (tempC > 45) {
+		piblaster.setPwm(18, 0.4);
 		//console.log("temp = " + tempC);
 	} else {
 		piblaster.setPwm(18, 0.3);

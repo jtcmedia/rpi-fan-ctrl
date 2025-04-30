@@ -1,0 +1,12 @@
+services:
+  piblaster:
+    container_name: pi-blaster
+    image: sarfata/pi-blaster
+    privileged: true
+    volumes:
+      - /dev:/dev
+  fan:
+    container_name: fan-ctrl
+    build: ./fan-ctrl
+    depends_on:
+      - piblaster
